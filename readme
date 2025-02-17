@@ -1,0 +1,15 @@
+Must install...
+1. Latest Python Version 
+Make sure to check the option to "Add Python to PATH" during installation.
+
+2. Install Required Libraries:
+You'll need three libraries for your code:
+
+requests (for making HTTP requests)
+pyttsx3 (for text-to-speech)
+json (comes with Python, so no need to install it separately)
+To install the necessary libraries, run the following command in your terminal/command prompt:
+pip install requests pyttsx3
+
+3. setup ollama API locally
+For this to work, you need to have the Ollama service running locally at http://localhost:11434
