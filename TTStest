@@ -1,0 +1,17 @@
+import pyttsx3
+
+# Initialize the pyttsx3 engine
+engine = pyttsx3.init()
+
+# Set properties (optional)
+engine.setProperty('rate', 150)    # Speed of speech (default is 200)
+engine.setProperty('volume', 1)    # Volume (0.0 to 1.0)
+
+# Text to be converted to speech
+text = "hi?"
+
+# Convert text to speech
+engine.say(text)
+
+# Wait for speech to finish before exiting
+engine.runAndWait()
