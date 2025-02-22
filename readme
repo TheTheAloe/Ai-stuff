@@ -1,27 +1,34 @@
 ONLY TESTED ON WINDOWS!!!
 
 Must install...
-1. Latest Python Version 
-Make sure to check the option to "Add Python to PATH" during installation.
 
-2. Install Required Libraries:
-You'll need three libraries for your code:
-
-pip (helps with installs)
-requests (for making HTTP requests)
-pyttsx3 (for text-to-speech)
-json (comes with Python, so no need to install it separately)
-To install the necessary libraries, run the following command in your terminal/command prompt:
-pip install requests pyttsx3
-
-3. setup ollama API locally
+1. setup Ollama API locally (https://ollama.com/download)
+Once Ollama is installed go into your PCs terminal and paste the command (ollama run deepseek-r1:32b)
 For this to work, you need to have the Ollama service running locally at http://localhost:11434
 
-For speach to speach you will need to also install...
+2. This was made on Python version 3.13.2 (install from https://www.python.org/downloads/)
+Check the option to "Add Python to PATH" during installation.
+Now install the Python extension on VScode then reboot software. Once software posts run python --version in the terminal. If it says Python 3.13.2 it is working.
+
+3. Install Required Libraries:
+You'll need three libraries for your code:
+
+pip within the terminal (python get-pip.py)
+requests (for making HTTP requests)
+pyttsx3 (for text-to-speech)
+json (comes with Python)
+To install the necessary libraries, run the following command in your VScode terminal:
+pip install requests pyttsx3 (run this within VScode terminal)
+
+For speech to speech, you will need also to install...
 
 Speech_recognition (pip install SpeechRecognition)
 PyAudio (pip install pyaudio)
+To install the necessary libraries, run the following command in your VScode terminal:
+pip install SpeechRecognition pyaudio
 
-If you are running the openAI version of this scirpt install openAi's python package. (pip install openai)
+Now it should work!
 
-With the final script the wakeword will be hey ai, to end the chat the phrase is end chat and to kill the script the word is kill. 
+If you are running this script's openAI version, install openAi's python package. (pip install openai)
+
+With the final script, the wakeword will be hey ai, to end the chat the phrase is end chat and to kill the script the word is kill. 
