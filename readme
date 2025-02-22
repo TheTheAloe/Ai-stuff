@@ -19,3 +19,5 @@ For speach to speach you will need to also install...
 
 Speech_recognition (pip install SpeechRecognition)
 PyAudio (pip install pyaudio)
+
+With the final script the wakeword will be hey ai, to end the chat the phrase is end chat and to kill the script the word is kill. 
