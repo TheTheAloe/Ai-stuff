@@ -1,3 +1,5 @@
+ONLY TESTED ON WINDOWS!!!
+
 Must install...
 1. Latest Python Version 
 Make sure to check the option to "Add Python to PATH" during installation.
@@ -19,5 +21,7 @@ For speach to speach you will need to also install...
 
 Speech_recognition (pip install SpeechRecognition)
 PyAudio (pip install pyaudio)
+
+If you are running the openAI version of this scirpt install openAi's python package. (pip install openai)
 
 With the final script the wakeword will be hey ai, to end the chat the phrase is end chat and to kill the script the word is kill. 
