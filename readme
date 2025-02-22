@@ -30,5 +30,6 @@ pip install SpeechRecognition pyaudio
 Now it should work!
 
 If you are running this script's openAI version, install openAi's python package. (pip install openai)
+Where it says "OpenAIAPIkey" paste in your API key.
 
 With the final script, the wakeword will be hey ai, to end the chat the phrase is end chat and to kill the script the word is kill. 
