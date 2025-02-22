@@ -5,6 +5,7 @@ Make sure to check the option to "Add Python to PATH" during installation.
 2. Install Required Libraries:
 You'll need three libraries for your code:
 
+pip (helps with installs)
 requests (for making HTTP requests)
 pyttsx3 (for text-to-speech)
 json (comes with Python, so no need to install it separately)
