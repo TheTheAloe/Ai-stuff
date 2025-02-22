@@ -10,7 +10,7 @@ prompt = "hi."
 
 # Define the payload (your input prompt)
 payload = {
-    "model": "new",  # Replace with the model name you're using
+    "model": "deepseek-r1:32b",  # Replace with the model name you're using
     "messages": [{"role": "user", "content": prompt}]
 }
 
@@ -43,7 +43,7 @@ def generate_text(prompt):
 engine = pyttsx3.init()
 
 # Set properties for the speech engine
-engine.setProperty('rate', 400)  # Speed of speech
+engine.setProperty('rate', 150)  # Speed of speech
 engine.setProperty('volume', 1)  # Volume level (0.0 to 1.0)
 voices = engine.getProperty('voices')       #getting details of current voice
 #engine.setProperty('voice', voices[0].id)  #changing index, changes voices. o for male
